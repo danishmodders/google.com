@@ -1,0 +1,91 @@
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed,
+figure, figcaption, footer, header, hgroup,
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+.body {
+	height: auto;
+}
+
+.header li {
+    float: right;
+}
+
+.logo {
+    display: block;
+    margin: auto;
+    width: 40%;
+		padding-top: 15%;
+
+}
+
+.search, .buttons {
+	display: block;
+	margin: auto;
+	width: 40%;
+	padding: 10px;
+}
+
+.search-link {
+    display: inline;
+    padding: 8px;
+    background-color: rgb(242, 242, 242);
+}
+
+.change-lang {
+	padding: 25px;
+	padding-bottom: 96%;
+}
+
+ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+}
+
+
+.footer, .header li a {
+    display: block;
+    padding: 8px;
+    background-color: #dddddd;
+		width: auto;
+		color: black;
+}
+
+.footer ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+		display: inline-block;
+}
+
+.footer li {
+		padding-right: 9px;
+		padding-left: 9px;
+}
+
+.float-left li {
+	float: left;
+}
+
+.float-right li {
+	float: right;
+}
